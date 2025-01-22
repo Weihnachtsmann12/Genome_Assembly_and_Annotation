@@ -8,7 +8,7 @@
 #SBATCH --error=/data/users/mrubin/assembly_annotation_course/error_control_%j.e
 #SBATCH --partition=pibu_el8
 
-# for the LJA assembly
+# Create control files for the fly assembly
 WORKDIR=/data/users/mrubin/assembly_annotation_course/gene_annotation_directory
 
 cd $WORKDIR
